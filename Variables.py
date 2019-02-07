@@ -1,4 +1,11 @@
+
+# Declare a variable and initialize it
+
 myint = 7
+print(myint)
+
+# re-declaring the variable works
+myint = 10
 print(myint)
 
 myfloat = 7.0
@@ -37,3 +44,8 @@ two = 2
 hello = "hello"
 
 print(one + two + hello)
+
+
+# ERROR: variables of different types cannot be combined
+#print ("string type " + 123)
+print ("string type " + str(123))
