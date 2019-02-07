@@ -1,6 +1,5 @@
 
 # Declare a variable and initialize it
-
 myint = 7
 print(myint)
 
